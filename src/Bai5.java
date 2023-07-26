@@ -23,6 +23,8 @@ public class Bai5 {
                 if(foundSpace){
                     charArray[i]=Character.toUpperCase(charArray[i]);
                     foundSpace=false;
+                }else {
+                    charArray[i]=Character.toLowerCase(charArray[i]);
                 }
             }else {
                 foundSpace=true;
